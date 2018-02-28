@@ -1,0 +1,70 @@
+﻿<angular4-notify-notifications-container></angular4-notify-notifications-container>
+<h3>Add new payment</h3>
+<div class="container-fluid">
+    <form [formGroup]="addNewPaymentForm" (ngSubmit)="onSubmit()" class="form-horizontal" novalidate=novalidate>
+        <div class="form-group">
+            <label class="col-md-2 control-label">BSB</label>
+            <div class="col-md-4">
+                <input type="text" name="bSB" formControlName="bSB" class="form-control" />
+                <div *ngIf="!addNewPaymentForm.controls.bSB?.valid && (addNewPaymentForm.controls.bSB?.dirty ||addNewPaymentForm.controls.bSB?.touched)" class="alert alert-danger">
+                    <div [hidden]="!addNewPaymentForm.controls.bSB.errors.required">
+                        BSB is required
+                    </div>
+                    <div *ngIf="addNewPaymentForm.controls.bSB.errors.pattern||addNewPaymentForm.controls.bSB.errors?.min">
+                        BSB is invalid.
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Account number</label>
+            <div class="col-md-4">
+                <input type="text" name="accountNo" formControlName="accountNo" class="form-control" />
+                <div *ngIf="!addNewPaymentForm.controls.accountNo?.valid && (addNewPaymentForm.controls.accountNo?.dirty ||addNewPaymentForm.controls.accountNo?.touched)" class="alert alert-danger">
+                    <div [hidden]="!addNewPaymentForm.controls.accountNo.errors.required">
+                        Account number is required
+                    </div>
+                    <div *ngIf="addNewPaymentForm.controls.accountNo.errors.pattern||addNewPaymentForm.controls.accountNo.errors?.min">
+                        Account number invalid.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Account name</label>
+            <div class="col-md-8">
+                <input type="text" name="accountName" formControlName="accountName" class="form-control" />
+                <div *ngIf="!addNewPaymentForm.controls.accountName?.valid && (addNewPaymentForm.controls.accountName?.dirty ||addNewPaymentForm.controls.accountName?.touched)" class="alert alert-danger">
+                    <div [hidden]="!addNewPaymentForm.controls.accountName.errors.required">
+                        Account name is required
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Reference</label>
+            <div class="col-md-8">
+                <input type="text" name="reference" formControlName="reference" class="form-control" />
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-md-2 control-label">Amount (AUD)</label>
+            <div class="col-md-8">
+                <input type="text" name="amount" formControlName="amount" class="form-control" />
+                <div *ngIf="!addNewPaymentForm.controls.amount?.valid && (addNewPaymentForm.controls.amount?.dirty ||addNewPaymentForm.controls.amount?.touched)" class="alert alert-danger">
+                    <div [hidden]="!addNewPaymentForm.controls.amount.errors.required">
+                        Amount is required
+                    </div>
+                    <div *ngIf="addNewPaymentForm.controls.amount.errors.pattern||addNewPaymentForm.controls.amount.errors?.min||addNewPaymentForm.controls.amount.errors?.max">
+                        Amount is invalid.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <!--<button type="submit" class="btn-primary" [disabled]="!addNewPaymentForm.valid">Submit</button>-->
+            <button type="submit" class="btn-primary btn">Submit</button>
+        </div>
+    </form>
+</div>

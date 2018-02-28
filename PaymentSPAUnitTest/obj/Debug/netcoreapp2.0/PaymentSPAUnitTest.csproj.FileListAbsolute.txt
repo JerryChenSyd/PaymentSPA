@@ -1,0 +1,17 @@
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netcoreapp10.dll
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\xunit.runner.utility.netcoreapp10.dll
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPAUnitTest.deps.json
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPAUnitTest.runtimeconfig.json
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPAUnitTest.runtimeconfig.dev.json
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPAUnitTest.dll
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPA.dll
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPA.pdb
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.csprojResolveAssemblyReference.cache
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.csproj.CoreCompileInputs.cache
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.AssemblyInfoInputs.cache
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.AssemblyInfo.cs
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\PaymentSPAUnitTest.pdb
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.dll
+E:\PaymentSPA\PaymentSPAUnitTest\obj\Debug\netcoreapp2.0\PaymentSPAUnitTest.pdb
+E:\PaymentSPA\PaymentSPAUnitTest\bin\Debug\netcoreapp2.0\nlog.config
