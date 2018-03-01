@@ -4,7 +4,7 @@
 # Serve-side using ASP.NET Core 2 Web API to handle the request
 # Using Jasmine and Karma for the client side unit test and test runner
 # Using Xunit and Moq for server side unit test and mock library, using Visual Studio Test Explorer as the test runner
-# Client-side log using JSNLog npm package to log the main activities and post the log event date to the server side.
+# Client-side log using JSNLog npm package to log the main activities and post the log event data to the server side.
 # Server-side log using NLog npm package to log the event from both server-side and client-side events.
 # Payment data is validated in both client side and server side and saved in a text file. The file path is the "PaymentsData/Payments.txt" under the project workspace.
 # The main activity(both client and server) log file path is "${basedir}/LogData/nlog-own-transaction-${shortdate}.log". Here the "${basedir}" is the ASP.NET Core 2 application default output path. For example, in the debug mode, the log path is "bin\Debug\netcoreapp2.0\LogData\nlog-own-transaction-${shortdate}.log"
